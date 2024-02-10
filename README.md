@@ -2,14 +2,16 @@
 # Challenge 1 
 
 # Description
-The purpose of this challenge is to update and optimize the HTML and CSS code so that it is more semantic and accessible, without changing the outcome of the code i.e. anything about the appearance/text of the website. 
+The purpose of this challenge is to update and optimize the HTML and CSS code so that it is more semantic and accessible, without changing the outcome of the code i.e. anything about the appearance/text of the website, which you can view here:
+
+<img src="./assets/images/01-html-css-git-homework-demo-image.png" alt="Horiseon Refactoring Challenge" />
 
 This particular assignment is about a marketing agency that needs their code updated to follow accessibility standards so that their site is optimized for search engines (as quoted from the user story). 
 
 In order to optimize the original code, I replaced many of the div attributes with with semantic elements i.e. "header" and "section." I also revised the CSS code because many of the classes had the same properties, as I commented in the code.  
 
 # How I changed the code in CSS and HTML
-Here is a list of what I changed in the CSS and HTML file
+Here is a list of what I changed in the CSS and HTML file 
 1. In the "head" I added a title, "Horiseon" to the code. There was no need to change anything in the CSS file for this step as this is just a way to make the code more accessible. 
 2. In the "body" I removed the "div" tags and I changed the "header" tag from a class to an element and as a result of me changing the header from a class to an element, I had to remove the period from all of the ".header" tags in the CSS file so the code would not be effected. I removed the "div" element under the "h1" tag and replaced it with the "nav" element. In response, I updated the text in the CSS file to match the changes in the HTML file by adding "nav" to the "header" where "div" was originally. In the HTML file, I closed out the "header" portion of the code by ensuring the "/nav" and /header" elements were in place and replaced the "/div" for both. 
 3. I tried to see if I could move the "hero" class into the "header" or "title" portion of the HTML code and it would not work because it affected the position and appearance of the picture that is linked in the CSS code. However, I did update the "div" to a "figure" element. No changes needed to be made in the CSS code. 
@@ -26,3 +28,5 @@ I built this project so I can start to code and understand what it takes to buil
 
 # Credits
 I would like to credit my instructor, my TA and my class mates for being so supportive. Special thanks to my tutor for being so amazing and patient and for showing me new resources. Finally to me for getting out of my comfort zone and trying my best to my first assignment. 
+
+Please note that I added a screenshot of the Marketing site above by including the image in my folder and creating a relative path to the image from the folder in VS Code with the "img" tag. 
